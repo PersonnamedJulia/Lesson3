@@ -1,0 +1,6 @@
+func = lambda x, y:1/(x**abs(y))
+print('введите x')
+x = int(input())
+print('введите y')
+y = int(input())
+print('x в степени y =', func(x, y))
